@@ -1,0 +1,757 @@
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Projee.exe.config
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Projee.exe
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Projee.pdb
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.exe
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.pdb
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.AidatGecmisi.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.AidatListele.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\Hikmet\source\repos\Projee\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\Projee.exe.config
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\Projee.exe
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\Projee.pdb
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.EUDuzen.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.EUGecmis.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.PersonelEkle.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.PersonelListesi.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.exe
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.pdb
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.bransekle1.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.sporcubilgigüncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.personebilgigüncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.HesapBilgileri.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.Duzenle.resources
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\Projee.exe.config
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\Projee.exe
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\Projee.pdb
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.bransekle1.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.Duzenle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.EUDuzen.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.EUGecmis.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.HesapBilgileri.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.personebilgigüncelle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.PersonelEkle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.PersonelListesi.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.sporcubilgigüncelle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.exe
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.pdb
+C:\Users\HP\Desktop\Projee\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\HP\Desktop\çalışma\Projee\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\Projee.exe.config
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\Projee.exe
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\Projee.pdb
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.bransekle1.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.Duzenle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.EUDuzen.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.EUGecmis.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.HesapBilgileri.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.personebilgigüncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.PersonelEkle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.PersonelListesi.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.sporcubilgigüncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.exe
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.pdb
+C:\Users\HP\Desktop\çalışma\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\Projee.exe.config
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\Projee.exe
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\Projee.pdb
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.bransekle1.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.Duzenle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.EUDuzen.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.EUGecmis.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.HesapBilgileri.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.personebilgigüncelle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.PersonelEkle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.PersonelListesi.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.sporcubilgigüncelle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.exe
+C:\Users\HP\Desktop\Emin Orhan Arslan f21887566.pdf\Projee - Kopya\Projee\obj\Debug\Projee.pdb
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\Projee.exe.config
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\Projee.exe
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\Projee.pdb
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\Bunifu.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.AidatGecmisiGoruntule.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.AidatGuncelleme.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.AnaSayfa.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.BransEkle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.bransekle1.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.Duzenle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.EkUcretGirisi.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.EUDuzen.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.EUGecmis.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.Form1.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.Guncelleme.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.HesapBilgileri.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.KayıtSil.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.MailGonder.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.personebilgigüncelle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.PersonelEkle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.PersonelListesi.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.Properties.Resources.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.sporcubilgigüncelle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.SporcuGuncelle.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.SporcuKayıt.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.SporcuListesi.resources
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.exe.licenses
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.csproj.CopyComplete
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.exe
+C:\Users\HP\Desktop\YEDEK  ORHAN 16.08.2020\hacettepe bilgisayar programcılığı\Projee - Kopya\Projee\obj\Debug\Projee.pdb

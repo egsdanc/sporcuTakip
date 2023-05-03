@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EKUCRETLERR" targetNamespace="http://tempuri.org/EKUCRETLERR.xsd" xmlns:mstns="http://tempuri.org/EKUCRETLERR.xsd" xmlns="http://tempuri.org/EKUCRETLERR.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="proje3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="proje3ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Projee.Properties.Settings.GlobalReference.Default.proje3ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ListeleTableAdapter" GeneratorDataComponentClassName="ListeleTableAdapter" Name="Listele" UserDataComponentName="ListeleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="listeleekle" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="listeleal" GeneratorSourceName="listeleekle" GetMethodModifier="Public" GetMethodName="listeleal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="listeleal" UserSourceName="listeleekle">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="sporcu_bilgi_id" DataSetColumn="sporcu_bilgi_id" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketal" GeneratorSourceName="basketdoldur" GetMethodModifier="Public" GetMethodName="basketal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketal" UserSourceName="basketdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikal" GeneratorSourceName="cimnastikdoldur" GetMethodModifier="Public" GetMethodName="cimnastikal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikal" UserSourceName="cimnastikdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="futboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="futbolal" GeneratorSourceName="futboldoldur" GetMethodModifier="Public" GetMethodName="futbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="futbolal" UserSourceName="futboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Futbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="taekwondodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="taekwondoal" GeneratorSourceName="taekwondodoldur" GetMethodModifier="Public" GetMethodName="taekwondoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="taekwondoal" UserSourceName="taekwondodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  sporcu_ekle AS sporcu_ekle_1 ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle_1.sporcu_ekle_sporcu_bilgi_id AND spor_brans.spor_brans_id = sporcu_ekle_1.sporcu_ekle_spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="sporcudoldur" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="sporcual" GeneratorSourceName="sporcudoldur" GetMethodModifier="Public" GetMethodName="sporcual" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="sporcual" UserSourceName="sporcudoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EkUcretEkleTableAdapter" GeneratorDataComponentClassName="EkUcretEkleTableAdapter" Name="EkUcretEkle" UserDataComponentName="EkUcretEkleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.ek_ucret" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="ekucretdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="ekucretal" GeneratorSourceName="ekucretdoldur" GetMethodModifier="Public" GetMethodName="ekucretal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="ekucretal" UserSourceName="ekucretdoldur">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [ek_ucret] WHERE (([ek_ucret_id] = @Original_ek_ucret_id) AND ((@IsNull_ek_ucret_alinan_miktar = 1 AND [ek_ucret_alinan_miktar] IS NULL) OR ([ek_ucret_alinan_miktar] = @Original_ek_ucret_alinan_miktar)) AND ((@IsNull_ek_ucret_alinan_tarih = 1 AND [ek_ucret_alinan_tarih] IS NULL) OR ([ek_ucret_alinan_tarih] = @Original_ek_ucret_alinan_tarih)) AND ((@IsNull_ek_ucret_aciklama = 1 AND [ek_ucret_aciklama] IS NULL) OR ([ek_ucret_aciklama] = @Original_ek_ucret_aciklama)) AND ((@IsNull_ek_ucret_sporcu_bilgi_id = 1 AND [ek_ucret_sporcu_bilgi_id] IS NULL) OR ([ek_ucret_sporcu_bilgi_id] = @Original_ek_ucret_sporcu_bilgi_id)) AND ((@IsNull_ek_ucret_personel_bilgi_id = 1 AND [ek_ucret_personel_bilgi_id] IS NULL) OR ([ek_ucret_personel_bilgi_id] = @Original_ek_ucret_personel_bilgi_id)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_alinan_miktar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_alinan_tarih" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_aciklama" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [ek_ucret] ([ek_ucret_alinan_miktar], [ek_ucret_alinan_tarih], [ek_ucret_aciklama], [ek_ucret_sporcu_bilgi_id], [ek_ucret_personel_bilgi_id]) VALUES (@ek_ucret_alinan_miktar, @ek_ucret_alinan_tarih, @ek_ucret_aciklama, @ek_ucret_sporcu_bilgi_id, @ek_ucret_personel_bilgi_id);
+SELECT ek_ucret_id, ek_ucret_alinan_miktar, ek_ucret_alinan_tarih, ek_ucret_aciklama, ek_ucret_sporcu_bilgi_id, ek_ucret_personel_bilgi_id FROM ek_ucret WHERE (ek_ucret_id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ek_ucret.*
+FROM     ek_ucret</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [ek_ucret] SET [ek_ucret_alinan_miktar] = @ek_ucret_alinan_miktar, [ek_ucret_alinan_tarih] = @ek_ucret_alinan_tarih, [ek_ucret_aciklama] = @ek_ucret_aciklama, [ek_ucret_sporcu_bilgi_id] = @ek_ucret_sporcu_bilgi_id, [ek_ucret_personel_bilgi_id] = @ek_ucret_personel_bilgi_id WHERE (([ek_ucret_id] = @Original_ek_ucret_id) AND ((@IsNull_ek_ucret_alinan_miktar = 1 AND [ek_ucret_alinan_miktar] IS NULL) OR ([ek_ucret_alinan_miktar] = @Original_ek_ucret_alinan_miktar)) AND ((@IsNull_ek_ucret_alinan_tarih = 1 AND [ek_ucret_alinan_tarih] IS NULL) OR ([ek_ucret_alinan_tarih] = @Original_ek_ucret_alinan_tarih)) AND ((@IsNull_ek_ucret_aciklama = 1 AND [ek_ucret_aciklama] IS NULL) OR ([ek_ucret_aciklama] = @Original_ek_ucret_aciklama)) AND ((@IsNull_ek_ucret_sporcu_bilgi_id = 1 AND [ek_ucret_sporcu_bilgi_id] IS NULL) OR ([ek_ucret_sporcu_bilgi_id] = @Original_ek_ucret_sporcu_bilgi_id)) AND ((@IsNull_ek_ucret_personel_bilgi_id = 1 AND [ek_ucret_personel_bilgi_id] IS NULL) OR ([ek_ucret_personel_bilgi_id] = @Original_ek_ucret_personel_bilgi_id)));
+SELECT ek_ucret_id, ek_ucret_alinan_miktar, ek_ucret_alinan_tarih, ek_ucret_aciklama, ek_ucret_sporcu_bilgi_id, ek_ucret_personel_bilgi_id FROM ek_ucret WHERE (ek_ucret_id = @ek_ucret_id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_alinan_miktar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_alinan_tarih" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_aciklama" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ek_ucret_personel_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ek_ucret_personel_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ek_ucret_id" ColumnName="ek_ucret_id" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ek_ucret_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ek_ucret_id" DataSetColumn="ek_ucret_id" />
+              <Mapping SourceColumn="ek_ucret_alinan_miktar" DataSetColumn="ek_ucret_alinan_miktar" />
+              <Mapping SourceColumn="ek_ucret_alinan_tarih" DataSetColumn="ek_ucret_alinan_tarih" />
+              <Mapping SourceColumn="ek_ucret_aciklama" DataSetColumn="ek_ucret_aciklama" />
+              <Mapping SourceColumn="ek_ucret_sporcu_bilgi_id" DataSetColumn="ek_ucret_sporcu_bilgi_id" />
+              <Mapping SourceColumn="ek_ucret_personel_bilgi_id" DataSetColumn="ek_ucret_personel_bilgi_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="InsertEkucret" Modifier="Public" Name="InsertEkucret" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="InsertEkucret">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>INSERT INTO ek_ucret
+                  (ek_ucret_alinan_miktar, ek_ucret_alinan_tarih, ek_ucret_aciklama)
+VALUES (@ek_ucret_alinan_miktar,@ek_ucret_alinan_tarih,@ek_ucret_aciklama);  
+SELECT ek_ucret_id, ek_ucret_alinan_miktar, ek_ucret_alinan_tarih, ek_ucret_aciklama, ek_ucret_sporcu_bilgi_id, ek_ucret_personel_bilgi_id FROM ek_ucret WHERE (ek_ucret_id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_alinan_miktar" ColumnName="ek_ucret_alinan_miktar" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_alinan_tarih" ColumnName="ek_ucret_alinan_tarih" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_aciklama" ColumnName="ek_ucret_aciklama" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SporcuEUEkleTableAdapter" GeneratorDataComponentClassName="SporcuEUEkleTableAdapter" Name="SporcuEUEkle" UserDataComponentName="SporcuEUEkleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="sporcueuekle" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="sporcueual" GeneratorSourceName="sporcueuekle" GetMethodModifier="Public" GetMethodName="sporcueual" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="sporcueual" UserSourceName="sporcueuekle">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad AS AD, sporcu_bilgi.sporcu_soyad AS SOYAD, sporcu_bilgi.sporcu_tc AS [TC No], ek_ucret.ek_ucret_alinan_miktar AS [Alınan Miktar], ek_ucret.ek_ucret_alinan_tarih AS [Alındığı Tarih], 
+                  ek_ucret.ek_ucret_aciklama AS Açıklama
+FROM     ek_ucret INNER JOIN
+                  sporcu_bilgi ON ek_ucret.ek_ucret_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AD" DataSetColumn="AD" />
+              <Mapping SourceColumn="SOYAD" DataSetColumn="SOYAD" />
+              <Mapping SourceColumn="TC No" DataSetColumn="TC No" />
+              <Mapping SourceColumn="Alınan Miktar" DataSetColumn="Alınan Miktar" />
+              <Mapping SourceColumn="Alındığı Tarih" DataSetColumn="Alındığı Tarih" />
+              <Mapping SourceColumn="Açıklama" DataSetColumn="Açıklama" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="Insert1" Modifier="Public" Name="Insert1" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="Insert1">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>INSERT INTO [ek_ucret] ([ek_ucret_alinan_miktar], [ek_ucret_alinan_tarih], [ek_ucret_aciklama], [ek_ucret_sporcu_bilgi_id]) VALUES (@ek_ucret_alinan_miktar, @ek_ucret_alinan_tarih, @ek_ucret_aciklama, @ek_ucret_sporcu_bilgi_id);
+SELECT ek_ucret_alinan_miktar, ek_ucret_alinan_tarih, ek_ucret_aciklama, ek_ucret_sporcu_bilgi_id, ek_ucret_id FROM ek_ucret WHERE (ek_ucret_id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_alinan_miktar" ColumnName="ek_ucret_alinan_miktar" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_miktar" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_alinan_miktar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_alinan_tarih" ColumnName="ek_ucret_alinan_tarih" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_alinan_tarih" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_alinan_tarih" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_aciklama" ColumnName="ek_ucret_aciklama" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@ek_ucret_aciklama" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ek_ucret_aciklama" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="ek_ucret_sporcu_bilgi_id" ColumnName="ek_ucret_sporcu_bilgi_id" DataSourceName="proje3.dbo.ek_ucret" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ek_ucret_sporcu_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ek_ucret_sporcu_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable2TableAdapter" GeneratorDataComponentClassName="DataTable2TableAdapter" Name="DataTable2" UserDataComponentName="DataTable2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="LİSTELELİSTELE" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="LİSTGET" GeneratorSourceName="LİSTELELİSTELE" GetMethodModifier="Public" GetMethodName="LİSTGET" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="LİSTGET" UserSourceName="LİSTELELİSTELE">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_bilgi.sporcu_bilgi_id, spor_brans.spor_brans_ad
+FROM     sporcu_ekle INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="sporcu_bilgi_id" DataSetColumn="sporcu_bilgi_id" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.sporcu_bilgi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="basletlist" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketlista" GeneratorSourceName="basletlist" GetMethodModifier="Public" GetMethodName="basketlista" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketlista" UserSourceName="basletlist">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_ad, sporcu_soyad, sporcu_tc, sporcu_bilgi_id
+FROM     sporcu_bilgi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EKUCRETLERR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EKUCRETLERR" msprop:Generator_UserDSName="EKUCRETLERR">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Listele" msprop:Generator_TableClassName="ListeleDataTable" msprop:Generator_TableVarName="tableListele" msprop:Generator_TablePropName="Listele" msprop:Generator_RowDeletingName="ListeleRowDeleting" msprop:Generator_RowChangingName="ListeleRowChanging" msprop:Generator_RowEvHandlerName="ListeleRowChangeEventHandler" msprop:Generator_RowDeletedName="ListeleRowDeleted" msprop:Generator_UserTableName="Listele" msprop:Generator_RowChangedName="ListeleRowChanged" msprop:Generator_RowEvArgName="ListeleRowChangeEvent" msprop:Generator_RowClassName="ListeleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_bilgi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsporcu_bilgi_id" msprop:Generator_ColumnPropNameInRow="sporcu_bilgi_id" msprop:Generator_ColumnPropNameInTable="sporcu_bilgi_idColumn" msprop:Generator_UserColumnName="sporcu_bilgi_id" type="xs:int" />
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EkUcretEkle" msprop:Generator_TableClassName="EkUcretEkleDataTable" msprop:Generator_TableVarName="tableEkUcretEkle" msprop:Generator_TablePropName="EkUcretEkle" msprop:Generator_RowDeletingName="EkUcretEkleRowDeleting" msprop:Generator_RowChangingName="EkUcretEkleRowChanging" msprop:Generator_RowEvHandlerName="EkUcretEkleRowChangeEventHandler" msprop:Generator_RowDeletedName="EkUcretEkleRowDeleted" msprop:Generator_UserTableName="EkUcretEkle" msprop:Generator_RowChangedName="EkUcretEkleRowChanged" msprop:Generator_RowEvArgName="EkUcretEkleRowChangeEvent" msprop:Generator_RowClassName="EkUcretEkleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ek_ucret_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnek_ucret_id" msprop:Generator_ColumnPropNameInRow="ek_ucret_id" msprop:Generator_ColumnPropNameInTable="ek_ucret_idColumn" msprop:Generator_UserColumnName="ek_ucret_id" type="xs:int" />
+              <xs:element name="ek_ucret_alinan_miktar" msprop:Generator_ColumnVarNameInTable="columnek_ucret_alinan_miktar" msprop:Generator_ColumnPropNameInRow="ek_ucret_alinan_miktar" msprop:Generator_ColumnPropNameInTable="ek_ucret_alinan_miktarColumn" msprop:Generator_UserColumnName="ek_ucret_alinan_miktar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ek_ucret_alinan_tarih" msprop:Generator_ColumnVarNameInTable="columnek_ucret_alinan_tarih" msprop:Generator_ColumnPropNameInRow="ek_ucret_alinan_tarih" msprop:Generator_ColumnPropNameInTable="ek_ucret_alinan_tarihColumn" msprop:Generator_UserColumnName="ek_ucret_alinan_tarih" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ek_ucret_aciklama" msprop:Generator_ColumnVarNameInTable="columnek_ucret_aciklama" msprop:Generator_ColumnPropNameInRow="ek_ucret_aciklama" msprop:Generator_ColumnPropNameInTable="ek_ucret_aciklamaColumn" msprop:Generator_UserColumnName="ek_ucret_aciklama" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ek_ucret_sporcu_bilgi_id" msprop:Generator_ColumnVarNameInTable="columnek_ucret_sporcu_bilgi_id" msprop:Generator_ColumnPropNameInRow="ek_ucret_sporcu_bilgi_id" msprop:Generator_ColumnPropNameInTable="ek_ucret_sporcu_bilgi_idColumn" msprop:Generator_UserColumnName="ek_ucret_sporcu_bilgi_id" type="xs:int" minOccurs="0" />
+              <xs:element name="ek_ucret_personel_bilgi_id" msprop:Generator_ColumnVarNameInTable="columnek_ucret_personel_bilgi_id" msprop:Generator_ColumnPropNameInRow="ek_ucret_personel_bilgi_id" msprop:Generator_ColumnPropNameInTable="ek_ucret_personel_bilgi_idColumn" msprop:Generator_UserColumnName="ek_ucret_personel_bilgi_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SporcuEUEkle" msprop:Generator_TableClassName="SporcuEUEkleDataTable" msprop:Generator_TableVarName="tableSporcuEUEkle" msprop:Generator_TablePropName="SporcuEUEkle" msprop:Generator_RowDeletingName="SporcuEUEkleRowDeleting" msprop:Generator_RowChangingName="SporcuEUEkleRowChanging" msprop:Generator_RowEvHandlerName="SporcuEUEkleRowChangeEventHandler" msprop:Generator_RowDeletedName="SporcuEUEkleRowDeleted" msprop:Generator_UserTableName="SporcuEUEkle" msprop:Generator_RowChangedName="SporcuEUEkleRowChanged" msprop:Generator_RowEvArgName="SporcuEUEkleRowChangeEvent" msprop:Generator_RowClassName="SporcuEUEkleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AD" msprop:Generator_ColumnVarNameInTable="columnAD" msprop:Generator_ColumnPropNameInRow="AD" msprop:Generator_ColumnPropNameInTable="ADColumn" msprop:Generator_UserColumnName="AD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOYAD" msprop:Generator_ColumnVarNameInTable="columnSOYAD" msprop:Generator_ColumnPropNameInRow="SOYAD" msprop:Generator_ColumnPropNameInTable="SOYADColumn" msprop:Generator_UserColumnName="SOYAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TC_x0020_No" msprop:Generator_ColumnVarNameInTable="columnTC_No" msprop:Generator_ColumnPropNameInRow="TC_No" msprop:Generator_ColumnPropNameInTable="TC_NoColumn" msprop:Generator_UserColumnName="TC No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Alınan_x0020_Miktar" msprop:Generator_ColumnVarNameInTable="columnAlınan_Miktar" msprop:Generator_ColumnPropNameInRow="Alınan_Miktar" msprop:Generator_ColumnPropNameInTable="Alınan_MiktarColumn" msprop:Generator_UserColumnName="Alınan Miktar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Alındığı_x0020_Tarih" msprop:Generator_ColumnVarNameInTable="columnAlındığı_Tarih" msprop:Generator_ColumnPropNameInRow="Alındığı_Tarih" msprop:Generator_ColumnPropNameInTable="Alındığı_TarihColumn" msprop:Generator_UserColumnName="Alındığı Tarih" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Açıklama" msprop:Generator_ColumnVarNameInTable="columnAçıklama" msprop:Generator_ColumnPropNameInRow="Açıklama" msprop:Generator_ColumnPropNameInTable="AçıklamaColumn" msprop:Generator_UserColumnName="Açıklama" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_RowClassName="DataTable2Row" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_bilgi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsporcu_bilgi_id" msprop:Generator_ColumnPropNameInRow="sporcu_bilgi_id" msprop:Generator_ColumnPropNameInTable="sporcu_bilgi_idColumn" msprop:Generator_UserColumnName="sporcu_bilgi_id" type="xs:int" />
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Listele" />
+      <xs:field xpath="mstns:sporcu_bilgi_id" />
+    </xs:unique>
+    <xs:unique name="EkUcretEkle_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EkUcretEkle" />
+      <xs:field xpath="mstns:ek_ucret_id" />
+    </xs:unique>
+    <xs:unique name="DataTable2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:sporcu_bilgi_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

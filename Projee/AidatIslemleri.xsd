@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AidatIslemleri" targetNamespace="http://tempuri.org/AidatIslemleri.xsd" xmlns:mstns="http://tempuri.org/AidatIslemleri.xsd" xmlns="http://tempuri.org/AidatIslemleri.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="proje3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="proje3ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Projee.Properties.Settings.GlobalReference.Default.proje3ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aidat_bilgiTableAdapter" GeneratorDataComponentClassName="aidat_bilgiTableAdapter" Name="aidat_bilgi" UserDataComponentName="aidat_bilgiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.aidat_bilgi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="aidatlistele" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="aidatal" GeneratorSourceName="aidatlistele" GetMethodModifier="Public" GetMethodName="aidatal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="aidatal" UserSourceName="aidatlistele">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_sporcu_ekle_id, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id
+WHERE  (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="aidat_bilgi_sporcu_ekle_id" DataSetColumn="aidat_bilgi_sporcu_ekle_id" />
+              <Mapping SourceColumn="aidat_bilgi_alinan_ucret" DataSetColumn="aidat_bilgi_alinan_ucret" />
+              <Mapping SourceColumn="aidat_bilgi_aidat_tarihi" DataSetColumn="aidat_bilgi_aidat_tarihi" />
+              <Mapping SourceColumn="aidat_bilgi_id" DataSetColumn="aidat_bilgi_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketal" GeneratorSourceName="basketdoldur" GetMethodModifier="Public" GetMethodName="basketal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketal" UserSourceName="basketdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_sporcu_ekle_id, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id, spor_brans.spor_brans_ad, sporcu_ekle.aktiflik
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikal" GeneratorSourceName="cimnastikdoldur" GetMethodModifier="Public" GetMethodName="cimnastikal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikal" UserSourceName="cimnastikdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_sporcu_ekle_id, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id, spor_brans.spor_brans_ad
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.aidat_bilgi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="futboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="futbolal" GeneratorSourceName="futboldoldur" GetMethodModifier="Public" GetMethodName="futbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="futbolal" UserSourceName="futboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_id, aidat_bilgi.aidat_bilgi_sporcu_ekle_id FROM aidat_bilgi INNER JOIN sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id WHERE (spor_brans.spor_brans_ad = 'Futbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="taekwondodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="taekwondoal" GeneratorSourceName="taekwondodoldur" GetMethodModifier="Public" GetMethodName="taekwondoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="taekwondoal" UserSourceName="taekwondodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_sporcu_ekle_id, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id, spor_brans.spor_brans_ad
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi.aidat_bilgi_sporcu_ekle_id, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id, spor_brans.spor_brans_ad
+FROM     aidat_bilgi CROSS JOIN
+                  spor_brans
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aidat_bilgi1TableAdapter" GeneratorDataComponentClassName="aidat_bilgi1TableAdapter" Name="aidat_bilgi1" UserDataComponentName="aidat_bilgi1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.aidat_bilgi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="aidatbilgi" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="aidatal" GeneratorSourceName="aidatbilgi" GetMethodModifier="Public" GetMethodName="aidatal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="aidatal" UserSourceName="aidatbilgi">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [aidat_bilgi] WHERE (((@IsNull_aidat_bilgi_sporcu_ekle_id = 1 AND [aidat_bilgi_sporcu_ekle_id] IS NULL) OR ([aidat_bilgi_sporcu_ekle_id] = @Original_aidat_bilgi_sporcu_ekle_id)) AND ((@IsNull_aidat_bilgi_alinan_ucret = 1 AND [aidat_bilgi_alinan_ucret] IS NULL) OR ([aidat_bilgi_alinan_ucret] = @Original_aidat_bilgi_alinan_ucret)) AND ((@IsNull_aidat_bilgi_aidat_tarihi = 1 AND [aidat_bilgi_aidat_tarihi] IS NULL) OR ([aidat_bilgi_aidat_tarihi] = @Original_aidat_bilgi_aidat_tarihi)) AND ([aidat_bilgi_id] = @Original_aidat_bilgi_id))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [aidat_bilgi] ([aidat_bilgi_sporcu_ekle_id], [aidat_bilgi_alinan_ucret], [aidat_bilgi_aidat_tarihi]) VALUES (@aidat_bilgi_sporcu_ekle_id, @aidat_bilgi_alinan_ucret, @aidat_bilgi_aidat_tarihi);
+SELECT aidat_bilgi_sporcu_ekle_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi, aidat_bilgi_id FROM aidat_bilgi WHERE (aidat_bilgi_id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi_sporcu_ekle_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi, aidat_bilgi_id FROM aidat_bilgi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [aidat_bilgi] SET [aidat_bilgi_sporcu_ekle_id] = @aidat_bilgi_sporcu_ekle_id, [aidat_bilgi_alinan_ucret] = @aidat_bilgi_alinan_ucret, [aidat_bilgi_aidat_tarihi] = @aidat_bilgi_aidat_tarihi WHERE (((@IsNull_aidat_bilgi_sporcu_ekle_id = 1 AND [aidat_bilgi_sporcu_ekle_id] IS NULL) OR ([aidat_bilgi_sporcu_ekle_id] = @Original_aidat_bilgi_sporcu_ekle_id)) AND ((@IsNull_aidat_bilgi_alinan_ucret = 1 AND [aidat_bilgi_alinan_ucret] IS NULL) OR ([aidat_bilgi_alinan_ucret] = @Original_aidat_bilgi_alinan_ucret)) AND ((@IsNull_aidat_bilgi_aidat_tarihi = 1 AND [aidat_bilgi_aidat_tarihi] IS NULL) OR ([aidat_bilgi_aidat_tarihi] = @Original_aidat_bilgi_aidat_tarihi)) AND ([aidat_bilgi_id] = @Original_aidat_bilgi_id));
+SELECT aidat_bilgi_sporcu_ekle_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi, aidat_bilgi_id FROM aidat_bilgi WHERE (aidat_bilgi_id = @aidat_bilgi_id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="aidat_bilgi_id" ColumnName="aidat_bilgi_id" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="aidat_bilgi_sporcu_ekle_id" DataSetColumn="aidat_bilgi_sporcu_ekle_id" />
+              <Mapping SourceColumn="aidat_bilgi_alinan_ucret" DataSetColumn="aidat_bilgi_alinan_ucret" />
+              <Mapping SourceColumn="aidat_bilgi_aidat_tarihi" DataSetColumn="aidat_bilgi_aidat_tarihi" />
+              <Mapping SourceColumn="aidat_bilgi_id" DataSetColumn="aidat_bilgi_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="InsertAidat" Modifier="Public" Name="InsertAidat" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="InsertAidat">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>INSERT INTO aidat_bilgi
+                  (aidat_bilgi_sporcu_ekle_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi)
+VALUES (@aidat_bilgi_sporcu_ekle_id,@aidat_bilgi_alinan_ucret,@aidat_bilgi_aidat_tarihi); 
+</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="aidat_bilgi_sporcu_ekle_id" ColumnName="aidat_bilgi_sporcu_ekle_id" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_sporcu_ekle_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="aidat_bilgi_sporcu_ekle_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="aidat_bilgi_alinan_ucret" ColumnName="aidat_bilgi_alinan_ucret" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="aidat_bilgi_aidat_tarihi" ColumnName="aidat_bilgi_aidat_tarihi" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aidat_bilgi2TableAdapter" GeneratorDataComponentClassName="aidat_bilgi2TableAdapter" Name="aidat_bilgi2" UserDataComponentName="aidat_bilgi2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="proje3.dbo.aidat_bilgi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [aidat_bilgi] WHERE (([aidat_bilgi_id] = @Original_aidat_bilgi_id) AND ((@IsNull_aidat_bilgi_alinan_ucret = 1 AND [aidat_bilgi_alinan_ucret] IS NULL) OR ([aidat_bilgi_alinan_ucret] = @Original_aidat_bilgi_alinan_ucret)) AND ((@IsNull_aidat_bilgi_aidat_tarihi = 1 AND [aidat_bilgi_aidat_tarihi] IS NULL) OR ([aidat_bilgi_aidat_tarihi] = @Original_aidat_bilgi_aidat_tarihi)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [aidat_bilgi] ([aidat_bilgi_alinan_ucret], [aidat_bilgi_aidat_tarihi]) VALUES (@aidat_bilgi_alinan_ucret, @aidat_bilgi_aidat_tarihi);
+SELECT aidat_bilgi_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi FROM aidat_bilgi WHERE (aidat_bilgi_id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT aidat_bilgi_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi
+FROM     aidat_bilgi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [aidat_bilgi] SET [aidat_bilgi_alinan_ucret] = @aidat_bilgi_alinan_ucret, [aidat_bilgi_aidat_tarihi] = @aidat_bilgi_aidat_tarihi WHERE (([aidat_bilgi_id] = @Original_aidat_bilgi_id) AND ((@IsNull_aidat_bilgi_alinan_ucret = 1 AND [aidat_bilgi_alinan_ucret] IS NULL) OR ([aidat_bilgi_alinan_ucret] = @Original_aidat_bilgi_alinan_ucret)) AND ((@IsNull_aidat_bilgi_aidat_tarihi = 1 AND [aidat_bilgi_aidat_tarihi] IS NULL) OR ([aidat_bilgi_aidat_tarihi] = @Original_aidat_bilgi_aidat_tarihi)));
+SELECT aidat_bilgi_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi FROM aidat_bilgi WHERE (aidat_bilgi_id = @aidat_bilgi_id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="aidat_bilgi_id" ColumnName="aidat_bilgi_id" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="aidat_bilgi_id" DataSetColumn="aidat_bilgi_id" />
+              <Mapping SourceColumn="aidat_bilgi_alinan_ucret" DataSetColumn="aidat_bilgi_alinan_ucret" />
+              <Mapping SourceColumn="aidat_bilgi_aidat_tarihi" DataSetColumn="aidat_bilgi_aidat_tarihi" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="AidatUpdateQuery" Modifier="Public" Name="AidatUpdateQuery" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="AidatUpdateQuery">
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>UPDATE aidat_bilgi
+SET          aidat_bilgi_alinan_ucret = @aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi = @aidat_bilgi_aidat_tarihi
+WHERE  (aidat_bilgi_id = @Original_aidat_bilgi_id) AND (aidat_bilgi_id = @Original_aidat_bilgi_id) AND (aidat_bilgi_id = @Original_aidat_bilgi_id) AND (aidat_bilgi_id = @Original_aidat_bilgi_id); 
+SELECT aidat_bilgi_id, aidat_bilgi_alinan_ucret, aidat_bilgi_aidat_tarihi FROM aidat_bilgi WHERE (aidat_bilgi_id = @aidat_bilgi_id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="aidat_bilgi_alinan_ucret" ColumnName="aidat_bilgi_alinan_ucret" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_alinan_ucret" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="aidat_bilgi_alinan_ucret" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="aidat_bilgi_aidat_tarihi" ColumnName="aidat_bilgi_aidat_tarihi" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@aidat_bilgi_aidat_tarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="aidat_bilgi_aidat_tarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Original_aidat_bilgi_id" ColumnName="aidat_bilgi_id" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Original_aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="aidat_bilgi_id" ColumnName="aidat_bilgi_id" DataSourceName="proje3.dbo.aidat_bilgi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@aidat_bilgi_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="aidat_bilgi_id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GecmisListeleTableAdapter" GeneratorDataComponentClassName="GecmisListeleTableAdapter" Name="GecmisListele" UserDataComponentName="GecmisListeleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="gecmisdoldur" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="gecmisal" GeneratorSourceName="gecmisdoldur" GetMethodModifier="Public" GetMethodName="gecmisal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="gecmisal" UserSourceName="gecmisdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+              <Mapping SourceColumn="aidat_bilgi_alinan_ucret" DataSetColumn="aidat_bilgi_alinan_ucret" />
+              <Mapping SourceColumn="aidat_bilgi_aidat_tarihi" DataSetColumn="aidat_bilgi_aidat_tarihi" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketidoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketial" GeneratorSourceName="basketidoldur" GetMethodModifier="Public" GetMethodName="basketial" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketial" UserSourceName="basketidoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikidoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikial" GeneratorSourceName="cimnastikidoldur" GetMethodModifier="Public" GetMethodName="cimnastikial" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikial" UserSourceName="cimnastikidoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND sporcu_ekle.aktiflik=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="fitboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="fitbolal" GeneratorSourceName="fitboldoldur" GetMethodModifier="Public" GetMethodName="fitbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="fitbolal" UserSourceName="fitboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Futbol') AND sporcu_ekle.aktiflik=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="tekvandodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="tekvandoal" GeneratorSourceName="tekvandodoldur" GetMethodModifier="Public" GetMethodName="tekvandoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="tekvandoal" UserSourceName="tekvandodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND sporcu_ekle.aktiflik=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, spor_brans.spor_brans_ad, aidat_bilgi.aidat_bilgi_alinan_ucret, aidat_bilgi.aidat_bilgi_aidat_tarihi, aidat_bilgi.aidat_bilgi_id
+FROM     aidat_bilgi INNER JOIN
+                  sporcu_ekle ON aidat_bilgi.aidat_bilgi_sporcu_ekle_id = sporcu_ekle.sporcu_ekle_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol') AND sporcu_ekle.aktiflik=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="hoppadoldur" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="hoppaal" GeneratorSourceName="hoppadoldur" GetMethodModifier="Public" GetMethodName="hoppaal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="hoppaal" UserSourceName="hoppadoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="sporcu_ekle_id" DataSetColumn="sporcu_ekle_id" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+              <Mapping SourceColumn="yas_grubu_ad" DataSetColumn="yas_grubu_ad" />
+              <Mapping SourceColumn="sporcu_ekle_anlasilan_tarih" DataSetColumn="sporcu_ekle_anlasilan_tarih" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketal" GeneratorSourceName="basketdoldur" GetMethodModifier="Public" GetMethodName="basketal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketal" UserSourceName="basketdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikal" GeneratorSourceName="cimnastikdoldur" GetMethodModifier="Public" GetMethodName="cimnastikal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikal" UserSourceName="cimnastikdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="futboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="futbolal" GeneratorSourceName="futboldoldur" GetMethodModifier="Public" GetMethodName="futbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="futbolal" UserSourceName="futboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Futbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="taekwondodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="taekwondoal" GeneratorSourceName="taekwondodoldur" GetMethodModifier="Public" GetMethodName="taekwondoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="taekwondoal" UserSourceName="taekwondodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable11TableAdapter" GeneratorDataComponentClassName="DataTable11TableAdapter" Name="DataTable11" UserDataComponentName="DataTable11TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="hoppadoldur" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="hoppaal" GeneratorSourceName="hoppadoldur" GetMethodModifier="Public" GetMethodName="hoppaal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="hoppaal" UserSourceName="hoppadoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="sporcu_ekle_id" DataSetColumn="sporcu_ekle_id" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+              <Mapping SourceColumn="yas_grubu_ad" DataSetColumn="yas_grubu_ad" />
+              <Mapping SourceColumn="sporcu_ekle_anlasilan_tarih" DataSetColumn="sporcu_ekle_anlasilan_tarih" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketal" GeneratorSourceName="basketdoldur" GetMethodModifier="Public" GetMethodName="basketal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketal" UserSourceName="basketdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikal" GeneratorSourceName="cimnastikdoldur" GetMethodModifier="Public" GetMethodName="cimnastikal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikal" UserSourceName="cimnastikdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="futboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="futbolal" GeneratorSourceName="futboldoldur" GetMethodModifier="Public" GetMethodName="futbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="futbolal" UserSourceName="futboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Futbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="taekwondodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="taekwondoal" GeneratorSourceName="taekwondodoldur" GetMethodModifier="Public" GetMethodName="taekwondoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="taekwondoal" UserSourceName="taekwondodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT spor_brans.spor_brans_ad, sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_anlasilan_tarih, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_ekle INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  sporcu_bilgi ON sporcu_ekle.sporcu_ekle_sporcu_bilgi_id = sporcu_bilgi.sporcu_bilgi_id
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable2TableAdapter" GeneratorDataComponentClassName="DataTable2TableAdapter" Name="DataTable2" UserDataComponentName="DataTable2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="hoppadoldur" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="hoppaal" GeneratorSourceName="hoppadoldur" GetMethodModifier="Public" GetMethodName="hoppaal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="hoppaal" UserSourceName="hoppadoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sporcu_ad" DataSetColumn="sporcu_ad" />
+              <Mapping SourceColumn="sporcu_soyad" DataSetColumn="sporcu_soyad" />
+              <Mapping SourceColumn="sporcu_tc" DataSetColumn="sporcu_tc" />
+              <Mapping SourceColumn="sporcu_ekle_id" DataSetColumn="sporcu_ekle_id" />
+              <Mapping SourceColumn="spor_brans_ad" DataSetColumn="spor_brans_ad" />
+              <Mapping SourceColumn="yas_grubu_ad" DataSetColumn="yas_grubu_ad" />
+              <Mapping SourceColumn="sporcu_ekle_anlasilan_tarih" DataSetColumn="sporcu_ekle_anlasilan_tarih" />
+              <Mapping SourceColumn="sporcu_ekle_anlasilan_ucret" DataSetColumn="sporcu_ekle_anlasilan_ucret" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="basketdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="basketal" GeneratorSourceName="basketdoldur" GetMethodModifier="Public" GetMethodName="basketal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="basketal" UserSourceName="basketdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Basketbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="cimnastikdoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="cimnastikal" GeneratorSourceName="cimnastikdoldur" GetMethodModifier="Public" GetMethodName="cimnastikal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="cimnastikal" UserSourceName="cimnastikdoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Jimnastik') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="futboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="futbolal" GeneratorSourceName="futboldoldur" GetMethodModifier="Public" GetMethodName="futbolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="futbolal" UserSourceName="futboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Futbol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="taekwondodoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="taekwondoal" GeneratorSourceName="taekwondodoldur" GetMethodModifier="Public" GetMethodName="taekwondoal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="taekwondoal" UserSourceName="taekwondodoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Taekwondo') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="proje3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="voleyboldoldur" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="voleybolal" GeneratorSourceName="voleyboldoldur" GetMethodModifier="Public" GetMethodName="voleybolal" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="voleybolal" UserSourceName="voleyboldoldur">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT sporcu_bilgi.sporcu_ad, sporcu_bilgi.sporcu_soyad, sporcu_bilgi.sporcu_tc, sporcu_ekle.sporcu_ekle_id, spor_brans.spor_brans_ad, yas_grubu.yas_grubu_ad, sporcu_ekle.sporcu_ekle_anlasilan_tarih, 
+                  sporcu_ekle.sporcu_ekle_anlasilan_ucret
+FROM     sporcu_bilgi INNER JOIN
+                  sporcu_ekle ON sporcu_bilgi.sporcu_bilgi_id = sporcu_ekle.sporcu_ekle_sporcu_bilgi_id INNER JOIN
+                  yas_grubu ON sporcu_ekle.sporcu_ekle_yas_grubu_id = yas_grubu.yas_grubu_id INNER JOIN
+                  spor_brans ON sporcu_ekle.sporcu_ekle_spor_brans_id = spor_brans.spor_brans_id
+WHERE  (spor_brans.spor_brans_ad = 'Voleybol') AND (sporcu_ekle.aktiflik = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AidatIslemleri" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AidatIslemleri" msprop:Generator_UserDSName="AidatIslemleri">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aidat_bilgi" msprop:Generator_TableClassName="aidat_bilgiDataTable" msprop:Generator_TableVarName="tableaidat_bilgi" msprop:Generator_RowChangedName="aidat_bilgiRowChanged" msprop:Generator_TablePropName="aidat_bilgi" msprop:Generator_RowDeletingName="aidat_bilgiRowDeleting" msprop:Generator_RowChangingName="aidat_bilgiRowChanging" msprop:Generator_RowEvHandlerName="aidat_bilgiRowChangeEventHandler" msprop:Generator_RowDeletedName="aidat_bilgiRowDeleted" msprop:Generator_RowClassName="aidat_bilgiRow" msprop:Generator_UserTableName="aidat_bilgi" msprop:Generator_RowEvArgName="aidat_bilgiRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_sporcu_ekle_idColumn" msprop:Generator_UserColumnName="aidat_bilgi_sporcu_ekle_id" type="xs:int" minOccurs="0" />
+              <xs:element name="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_alinan_ucretColumn" msprop:Generator_UserColumnName="aidat_bilgi_alinan_ucret" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_aidat_tarihiColumn" msprop:Generator_UserColumnName="aidat_bilgi_aidat_tarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_id" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_id" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_idColumn" msprop:Generator_UserColumnName="aidat_bilgi_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aidat_bilgi1" msprop:Generator_TableClassName="aidat_bilgi1DataTable" msprop:Generator_TableVarName="tableaidat_bilgi1" msprop:Generator_RowChangedName="aidat_bilgi1RowChanged" msprop:Generator_TablePropName="aidat_bilgi1" msprop:Generator_RowDeletingName="aidat_bilgi1RowDeleting" msprop:Generator_RowChangingName="aidat_bilgi1RowChanging" msprop:Generator_RowEvHandlerName="aidat_bilgi1RowChangeEventHandler" msprop:Generator_RowDeletedName="aidat_bilgi1RowDeleted" msprop:Generator_RowClassName="aidat_bilgi1Row" msprop:Generator_UserTableName="aidat_bilgi1" msprop:Generator_RowEvArgName="aidat_bilgi1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_sporcu_ekle_id" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_sporcu_ekle_idColumn" msprop:Generator_UserColumnName="aidat_bilgi_sporcu_ekle_id" type="xs:int" minOccurs="0" />
+              <xs:element name="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_alinan_ucretColumn" msprop:Generator_UserColumnName="aidat_bilgi_alinan_ucret" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_aidat_tarihiColumn" msprop:Generator_UserColumnName="aidat_bilgi_aidat_tarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_id" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_id" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_idColumn" msprop:Generator_UserColumnName="aidat_bilgi_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aidat_bilgi2" msprop:Generator_TableClassName="aidat_bilgi2DataTable" msprop:Generator_TableVarName="tableaidat_bilgi2" msprop:Generator_RowChangedName="aidat_bilgi2RowChanged" msprop:Generator_TablePropName="aidat_bilgi2" msprop:Generator_RowDeletingName="aidat_bilgi2RowDeleting" msprop:Generator_RowChangingName="aidat_bilgi2RowChanging" msprop:Generator_RowEvHandlerName="aidat_bilgi2RowChangeEventHandler" msprop:Generator_RowDeletedName="aidat_bilgi2RowDeleted" msprop:Generator_RowClassName="aidat_bilgi2Row" msprop:Generator_UserTableName="aidat_bilgi2" msprop:Generator_RowEvArgName="aidat_bilgi2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aidat_bilgi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_id" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_id" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_idColumn" msprop:Generator_UserColumnName="aidat_bilgi_id" type="xs:int" />
+              <xs:element name="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_alinan_ucretColumn" msprop:Generator_UserColumnName="aidat_bilgi_alinan_ucret" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_aidat_tarihiColumn" msprop:Generator_UserColumnName="aidat_bilgi_aidat_tarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GecmisListele" msprop:Generator_TableClassName="GecmisListeleDataTable" msprop:Generator_TableVarName="tableGecmisListele" msprop:Generator_RowChangedName="GecmisListeleRowChanged" msprop:Generator_TablePropName="GecmisListele" msprop:Generator_RowDeletingName="GecmisListeleRowDeleting" msprop:Generator_RowChangingName="GecmisListeleRowChanging" msprop:Generator_RowEvHandlerName="GecmisListeleRowChangeEventHandler" msprop:Generator_RowDeletedName="GecmisListeleRowDeleted" msprop:Generator_RowClassName="GecmisListeleRow" msprop:Generator_UserTableName="GecmisListele" msprop:Generator_RowEvArgName="GecmisListeleRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_alinan_ucret" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_alinan_ucretColumn" msprop:Generator_UserColumnName="aidat_bilgi_alinan_ucret" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnVarNameInTable="columnaidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInRow="aidat_bilgi_aidat_tarihi" msprop:Generator_ColumnPropNameInTable="aidat_bilgi_aidat_tarihiColumn" msprop:Generator_UserColumnName="aidat_bilgi_aidat_tarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_id" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_id" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_idColumn" msprop:Generator_UserColumnName="sporcu_ekle_id" type="xs:int" />
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="yas_grubu_ad" msprop:Generator_ColumnVarNameInTable="columnyas_grubu_ad" msprop:Generator_ColumnPropNameInRow="yas_grubu_ad" msprop:Generator_ColumnPropNameInTable="yas_grubu_adColumn" msprop:Generator_UserColumnName="yas_grubu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_anlasilan_tarihColumn" msprop:Generator_UserColumnName="sporcu_ekle_anlasilan_tarih" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable11" msprop:Generator_TableClassName="DataTable11DataTable" msprop:Generator_TableVarName="tableDataTable11" msprop:Generator_TablePropName="DataTable11" msprop:Generator_RowDeletingName="DataTable11RowDeleting" msprop:Generator_RowChangingName="DataTable11RowChanging" msprop:Generator_RowEvHandlerName="DataTable11RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable11RowDeleted" msprop:Generator_UserTableName="DataTable11" msprop:Generator_RowChangedName="DataTable11RowChanged" msprop:Generator_RowEvArgName="DataTable11RowChangeEvent" msprop:Generator_RowClassName="DataTable11Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_id" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_id" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_idColumn" msprop:Generator_UserColumnName="sporcu_ekle_id" type="xs:int" />
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="yas_grubu_ad" msprop:Generator_ColumnVarNameInTable="columnyas_grubu_ad" msprop:Generator_ColumnPropNameInRow="yas_grubu_ad" msprop:Generator_ColumnPropNameInTable="yas_grubu_adColumn" msprop:Generator_UserColumnName="yas_grubu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_anlasilan_tarihColumn" msprop:Generator_UserColumnName="sporcu_ekle_anlasilan_tarih" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowClassName="DataTable2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sporcu_ad" msprop:Generator_ColumnVarNameInTable="columnsporcu_ad" msprop:Generator_ColumnPropNameInRow="sporcu_ad" msprop:Generator_ColumnPropNameInTable="sporcu_adColumn" msprop:Generator_UserColumnName="sporcu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_soyad" msprop:Generator_ColumnVarNameInTable="columnsporcu_soyad" msprop:Generator_ColumnPropNameInRow="sporcu_soyad" msprop:Generator_ColumnPropNameInTable="sporcu_soyadColumn" msprop:Generator_UserColumnName="sporcu_soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_tc" msprop:Generator_ColumnVarNameInTable="columnsporcu_tc" msprop:Generator_ColumnPropNameInRow="sporcu_tc" msprop:Generator_ColumnPropNameInTable="sporcu_tcColumn" msprop:Generator_UserColumnName="sporcu_tc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_id" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_id" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_idColumn" msprop:Generator_UserColumnName="sporcu_ekle_id" type="xs:int" />
+              <xs:element name="spor_brans_ad" msprop:Generator_ColumnVarNameInTable="columnspor_brans_ad" msprop:Generator_ColumnPropNameInRow="spor_brans_ad" msprop:Generator_ColumnPropNameInTable="spor_brans_adColumn" msprop:Generator_UserColumnName="spor_brans_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="yas_grubu_ad" msprop:Generator_ColumnVarNameInTable="columnyas_grubu_ad" msprop:Generator_ColumnPropNameInRow="yas_grubu_ad" msprop:Generator_ColumnPropNameInTable="yas_grubu_adColumn" msprop:Generator_UserColumnName="yas_grubu_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_anlasilan_tarih" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_anlasilan_tarihColumn" msprop:Generator_UserColumnName="sporcu_ekle_anlasilan_tarih" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sporcu_ekle_anlasilan_ucret" msprop:Generator_ColumnVarNameInTable="columnsporcu_ekle_anlasilan_ucret" msprop:Generator_ColumnPropNameInRow="sporcu_ekle_anlasilan_ucret" msprop:Generator_ColumnPropNameInTable="sporcu_ekle_anlasilan_ucretColumn" msprop:Generator_UserColumnName="sporcu_ekle_anlasilan_ucret" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:aidat_bilgi" />
+      <xs:field xpath="mstns:aidat_bilgi_id" />
+    </xs:unique>
+    <xs:unique name="aidat_bilgi1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:aidat_bilgi1" />
+      <xs:field xpath="mstns:aidat_bilgi_id" />
+    </xs:unique>
+    <xs:unique name="aidat_bilgi2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:aidat_bilgi2" />
+      <xs:field xpath="mstns:aidat_bilgi_id" />
+    </xs:unique>
+    <xs:unique name="DataTable1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:sporcu_ekle_id" />
+    </xs:unique>
+    <xs:unique name="DataTable11_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable11" />
+      <xs:field xpath="mstns:sporcu_ekle_id" />
+    </xs:unique>
+    <xs:unique name="DataTable2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:sporcu_ekle_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

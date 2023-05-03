@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D686D999-E0DE-48FD-963A-D8B753A1C14E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projee</RootNamespace>
+    <AssemblyName>Projee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Desktop\bunifu\bunifu\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AidatGecmisiGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AidatGecmisiGoruntule.Designer.cs">
+      <DependentUpon>AidatGecmisiGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AidatGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AidatGuncelleme.Designer.cs">
+      <DependentUpon>AidatGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AidatIslemleri.cs">
+      <DependentUpon>AidatIslemleri.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AidatIslemleri.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AidatIslemleri.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BransEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BransEkle.Designer.cs">
+      <DependentUpon>BransEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bransekle1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bransekle1.Designer.cs">
+      <DependentUpon>bransekle1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Duzenle.Designer.cs">
+      <DependentUpon>Duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EkUcretGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EkUcretGirisi.Designer.cs">
+      <DependentUpon>EkUcretGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EKUCRETLERR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EKUCRETLERR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EUDuzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUDuzen.Designer.cs">
+      <DependentUpon>EUDuzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUGecmis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUGecmis.Designer.cs">
+      <DependentUpon>EUGecmis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guncelleme.Designer.cs">
+      <DependentUpon>Guncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HesapBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HesapBilgileri.Designer.cs">
+      <DependentUpon>HesapBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KayıtSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayıtSil.Designer.cs">
+      <DependentUpon>KayıtSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailGonder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailGonder.Designer.cs">
+      <DependentUpon>MailGonder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personebilgigüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personebilgigüncelle.Designer.cs">
+      <DependentUpon>personebilgigüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelEkle.Designer.cs">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelListesi.Designer.cs">
+      <DependentUpon>PersonelListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sporcubilgigüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sporcubilgigüncelle.Designer.cs">
+      <DependentUpon>sporcubilgigüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sporcuekleid.cs" />
+    <Compile Include="SporcuGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SporcuGuncelle.Designer.cs">
+      <DependentUpon>SporcuGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SporcuKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SporcuKayıt.Designer.cs">
+      <DependentUpon>SporcuKayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SporcuListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SporcuListesi.Designer.cs">
+      <DependentUpon>SporcuListesi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AidatGecmisiGoruntule.resx">
+      <DependentUpon>AidatGecmisiGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AidatGuncelleme.resx">
+      <DependentUpon>AidatGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BransEkle.resx">
+      <DependentUpon>BransEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bransekle1.resx">
+      <DependentUpon>bransekle1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duzenle.resx">
+      <DependentUpon>Duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EkUcretGirisi.resx">
+      <DependentUpon>EkUcretGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUDuzen.resx">
+      <DependentUpon>EUDuzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUGecmis.resx">
+      <DependentUpon>EUGecmis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guncelleme.resx">
+      <DependentUpon>Guncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HesapBilgileri.resx">
+      <DependentUpon>HesapBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayıtSil.resx">
+      <DependentUpon>KayıtSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailGonder.resx">
+      <DependentUpon>MailGonder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personebilgigüncelle.resx">
+      <DependentUpon>personebilgigüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelEkle.resx">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelListesi.resx">
+      <DependentUpon>PersonelListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sporcubilgigüncelle.resx">
+      <DependentUpon>sporcubilgigüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SporcuGuncelle.resx">
+      <DependentUpon>SporcuGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SporcuKayıt.resx">
+      <DependentUpon>SporcuKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SporcuListesi.resx">
+      <DependentUpon>SporcuListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AidatIslemleri.xsc">
+      <DependentUpon>AidatIslemleri.xsd</DependentUpon>
+    </None>
+    <None Include="AidatIslemleri.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AidatIslemleri.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="AidatIslemleri.xss">
+      <DependentUpon>AidatIslemleri.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EKUCRETLERR.xsc">
+      <DependentUpon>EKUCRETLERR.xsd</DependentUpon>
+    </None>
+    <None Include="EKUCRETLERR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EKUCRETLERR.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="EKUCRETLERR.xss">
+      <DependentUpon>EKUCRETLERR.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
